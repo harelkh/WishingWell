@@ -21,8 +21,8 @@ content = []
 #         content.append(line)
 #     print(content)
 appPassword = "Ardenkt1"
-emailPassword = "eVU3e47!3Y6o"
-
+#emailPassword = "eVU3e47!3Y6o"
+emailPassword = "bdyijkbcipmcbfyv"
 def reload_shared_wishlists(): #DONE
     '''
     Checks users email for any wishlists that have been share with them and downloads them.
@@ -155,6 +155,7 @@ def login_to_app(email_input, password_input):
                 continue
         else:
             print("This user has not signed up")
+            return False
 
 # def testrun():
 #     global emailAddr
